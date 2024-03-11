@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 60px;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-image: cover;
+}
+.img-messi {
+    padding-left: 60%;
+    width: 40%;
+    height: 230px;
+}
+@keyframes anim{
+    0% {background-image: url(https://i.pinimg.com/originals/7d/23/d5/7d23d51a3dc3a7afe0a93dc6a57b0422.gif);} /*Amarillo*/
+   25% {background-image: url(https://www.icegif.com/wp-content/uploads/2022/12/icegif-1080.gif);} /*Naranja*/
+   50% {background-image: url(https://media1.tenor.com/m/7WPwMu4Ie5wAAAAd/shooting-webs-gesture-lionel-messi.gif);} /*Negro*/
+   75% {background-image: url(https://media0.giphy.com/media/h2NxCschQ81ltiL9HV/200w.gif?cid=6c09b952lhm10c4m0ebuk99n00i2ihebfqdmwmo733wugvyl&ep=v1_gifs_search&rid=200w.gif&ct=g);} /*Otra vez naranja*/
+  100% {background-image: url(https://www.icegif.com/wp-content/uploads/2022/12/icegif-634.gif);} /*Otra vez amarillo*/
+}
